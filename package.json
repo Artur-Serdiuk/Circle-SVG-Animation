@@ -1,12 +1,17 @@
 {
   "name": "circle-svg-animation",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple implementation of svg counters",
   "main": "src/js/circle-svg-animation.js",
-  "scripts": {
-
-  },
-  "keywords": ["SVG", "animation", "circle", "svg", "counter", "meter"],
+  "scripts": {},
+  "keywords": [
+    "SVG",
+    "animation",
+    "circle",
+    "svg",
+    "counter",
+    "meter"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/scionable/Circle-SVG-Animation"
