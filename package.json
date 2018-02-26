@@ -1,10 +1,15 @@
 {
   "name": "circle-svg-animation",
   "version": "1.0.1",
-  "description": "",
-  "main": "index.js",
+  "description": "Simple implementation of svg counters",
+  "main": "src/js/circle-svg-animation.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+
+  },
+  "keywords": ["SVG", "animation", "circle", "svg", "counter", "meter"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scionable/Circle-SVG-Animation"
   },
   "author": "Arthor Serdyuk",
   "license": "ISC",
