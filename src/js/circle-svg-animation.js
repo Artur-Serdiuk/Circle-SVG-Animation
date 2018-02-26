@@ -98,5 +98,3 @@ function setAnimation(element, animationProperty, animationsvgOptions) {
 function setStyles(element, properties) {
 	return element.css(properties);
 }
-
-const svg = new SVG('.circle-box');

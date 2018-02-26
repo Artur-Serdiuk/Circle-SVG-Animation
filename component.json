@@ -1,0 +1,14 @@
+{
+  "name": "circle-svg-animation",
+  "repo": "https://github.com/scionable/Circle-SVG-Animation",
+  "description": "Simple implementation of svg counters",
+  "version": "1.0.0",
+  "keywords": ["SVG", "animation", "circle", "svg", "counter", "meter"],
+  "dependencies": {
+  },
+  "scripts": [
+    "src/js/circle-svg-animation.js"
+  ],
+  "main": "src/js/circle-svg-animation.js",
+  "license": ["MIT"]
+}
