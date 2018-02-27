@@ -19,9 +19,8 @@
   "author": "Arthor Serdyuk",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.18.8",
+    "browser-sync": "^2.23.6",
     "gulp": "^3.9.1",
-    "gulp-concat": "^2.6.1",
-    "gulp-uglifyjs": "^0.6.2"
+    "gulp-js-minify": "0.0.3"
   }
 }

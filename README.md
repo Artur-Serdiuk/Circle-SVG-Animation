@@ -3,10 +3,10 @@ Circle SVG animation
 
 ##### Example using Circle SVG animation
 
-Just copy circle-svg-animation.js to your js files directory and add a link before your closing ```<body>``` tag:
+Just copy circle-svg-animation.js or circle-svg-animation.min.js to your js files directory and add a link before your closing ```<body>``` tag:
 
 ```html
-<script type="text/javascript" src="js.circle-svg-animation.js"></script>
+<script type="text/javascript" src="js.circle-svg-animation.min.js"></script>
 ```
 
 #### Package Managers

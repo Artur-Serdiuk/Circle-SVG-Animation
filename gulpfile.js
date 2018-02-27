@@ -1,18 +1,14 @@
 const gulp = require('gulp');
 const browserSync = require('browser-sync');
-const concat = require('gulp-concat');
-const uglifyjs = require('gulp-uglifyjs');
+const minifyJs = require('gulp-js-minify');
 
-gulp.task('scripts', function () {
-	return gulp.src([
-		'src/libs/jquery/dist/jquery.min.js'
-	])
-		.pipe(concat('libs.min.js'))
-		.pipe(uglifyjs())
-		.pipe(gulp.dest('src/js'));
+gulp.task('minifyJs', function(){
+    gulp.src('./src/js/*.js')
+        .pipe(minifyJs())
+        .pipe(gulp.dest('./dist/'));
 });
 
-gulp.task('livereload', function () {
+gulp.task('browserSync', function () {
 	browserSync({
 		server: {
 			baseDir: 'src'
@@ -20,7 +16,7 @@ gulp.task('livereload', function () {
 	});
 });
 
-gulp.task('watch', ['livereload'], function () {
+gulp.task('watch', ['browserSync'], function () {
 	gulp.watch('src/js/**/*.js', browserSync.reload);
 });
 
